@@ -86,9 +86,6 @@ a{
     padding: 7px;
 }
 
-.info{
-    background-color: #e5e7eb;
-}
 .cards{
     display: flex;
     justify-content: center;
@@ -112,4 +109,23 @@ a{
 
 .mainPic{
     border-radius: 25px;
+}
+
+.quoteContainer{
+    background-color: #e5e7eb;
+    
+}
+
+.quoteContainer .quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 0;
+    text-align: center;
+    font-weight: 1;
+}
+
+.quoteContainer .author{
+    text-align: end;
+    padding-right: 200px;
+    font-weight: bolder;
 }
