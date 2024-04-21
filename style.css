@@ -25,6 +25,9 @@ a{
     
 }
 
+p{
+    margin: 0;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -56,13 +59,21 @@ a{
     align-items: center;
     justify-content: space-between;
     padding: 150px 150px 150px 150px;
+    
+}
+
+.heroSecondaryText,
+.heroButton{
+    margin-top: 10px;
 }
 
 .content{
     justify-content: center;
     align-items: center;
     width: 480px;
+    
 }
+
 .mainPic{
     width: 700px;
 }
@@ -113,7 +124,8 @@ a{
 
 .quoteContainer{
     background-color: #e5e7eb;
-    
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .quoteContainer .quote{
@@ -128,4 +140,55 @@ a{
     text-align: end;
     padding-right: 200px;
     font-weight: bolder;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContent{
+    width: 1000px;
+    height: 200px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 7px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-right: 45px;
+    padding-left: 45px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footerWriting {
+    display: flex;
+    color: #e5e7eb;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.actionMain{
+    margin-bottom: 25p;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.actionButton{
+    width: 83px;
+    border-radius: 4px;
+    border-width: 0px;
+    height: 28px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-width: 2px;
+    border-color: #e5e7eb;
+    border-style: solid;
+}
+
+.button{
+    display: flex;
+    flex-direction: column-reverse;
 }
